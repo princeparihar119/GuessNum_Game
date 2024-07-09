@@ -1,55 +1,44 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #121212;
     align-items: center;
-    justify-content: center;
     display: flex;
-    margin-top: 20px !important;
-    background-color: #121212 !important;
+    justify-content: center;
 }
+
 h1 {
-    font-size: 40px;
-    color:rgb(255, 106, 0) !important;
+    color:rgb(255, 106, 0);
 }
 
-#maxNum {
-    height: 39.84px;
+.guess {
+    background-color: #2b2727;
+    padding: 25px;
     border-radius: 10px;
-    
-}
-#maxNum :hover {
-    border: 2px solid blue;
+    margin-top: 50px;
 }
 
-#message {
+.msg {
     color: wheat;
 }
 
-#message2 {
-    color: wheat;
+.inp {
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(240, 252, 97);
+    padding-left: 5px;
 }
 
-#submitGuessBtn {
-    background-color: #51a9f1;
-    color: white;
-    padding: 6px 12px;
+.btn {
+    background-color: skyblue;
+    height: 37px;
     border-radius: 10px;
-}
-
-#maxButton {
-    background-color: rgb(2, 120, 4);
-    color: white;
-    border-radius: 10px;
-    padding: 6px 12px;
-}
-
-#guessNum {
-    height: 39.84px;
-    border-radius: 10px;
+    border: 2px solid rgb(240, 252, 97);
 }
 
 #quit {
     background-color: red;
     padding: 6px 12px;
     border-radius: 10px;
+    border: 2px solid pink;
 }
